@@ -1,0 +1,104 @@
+nav{
+  background-color:#F5FAFA;
+}
+
+body {
+  background-color: #9CD6D6;
+  
+}
+
+div{
+  padding-left: 30px;
+}
+
+h3{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
+
+h4{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
+
+div.a{
+  text-align: center;
+}
+a:link, a:visited{
+  text-align: center;
+  //color: white;
+}
+
+/* 3 cards */
+.card {
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 500px;
+   width: 500px;
+   margin-bottom: 3px;
+   margin-top: 3px;
+   margin-left: 3px;
+   margin-right: 3px;
+   background-color:#EBF6F6;
+}
+
+/* card-img detail */
+.card-img-top {
+    width: 90%;
+    height: 15vw;
+    object-fit:scale-down;
+}
+
+.button {
+  background-color: rgba(79, 83, 79, 0.637) 250, 42);
+}
+
+.row {
+  padding-right: 150px;
+  padding-left: 300px;
+  max-width: 1700px;
+}
+
+a.card1{
+  text-align: center;
+  background-color:blueviolet;
+}
+
+/* footer detail */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-color: #E1F2F2;
+  color: rgb(8, 7, 7);
+  text-align: center;
+}
+
+/* Colfooter detail */
+.colfooter {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: smaller;
+}
+
+/* rowfooter detail */
+.rowfooter:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p.center
+{
+  text-align: center; 
+}
+
+.dropdown{
+  color: black;
+}
+

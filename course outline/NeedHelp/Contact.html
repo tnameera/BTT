@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">needhelp.com</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="Taxes.html">Taxes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Bills.html">Bills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="Legalhelp.html">Legal help</a>
+
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <br>
+
+<br>
+	<!--STEP 2: Bootstrap container -->
+  <div class="container"
+
+		<!--STEP 3 & 4: Two form fields side by side in a row-->
+      <!-- Step 5: Form fields for first name and last name (bootstrap-> form-> layout-> form grid) -->
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name" id="first">
+
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name" id="last">
+
+    </div>
+  </div>
+
+  <br>
+  <!--Copied Dropdown from Bootstrap -->
+<div class= "row"> 
+  <div class="input-group mb-3">
+  <button class="btn btn-outline-secondary primary dropdown-toggle" type="button" data-bs-toggle="dropdown" >Comment</button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Complaint</a></li>
+      <li><a class="dropdown-item" href="#">Feedback</a></li>
+      <li><a class="dropdown-item" href="#">Suggestion</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Other</a></li>
+    </ul>
+    <input type="text" class="form-control" aria-label="Text input with dropdown button">
+  </div>
+</div>
+
+
+
+  <!-- STEP 6: Row for Button (bootstrap-> form-> layout-> auto sizing)-->
+
+  <div class="row">
+    <div class="col-6" >
+    <button type="submit" class="btn btn-primary" id="submitButton">Click me</button>
+    </div>
+  </div>
+
+  <br>
+
+    <!-- STEP 7: Print out area -->
+    <div class="row" id="print">
+    
+    </div>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
